@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Core" duration-ms="27273" started-at="2017-01-07T19:50:24Z" finished-at="2017-01-07T19:50:52Z">
+    <groups>
+      <group name="Grid">
+        <method signature="TestDriverFactory.testWindowsChromeDriver()[pri:0, instance:Com.HybridTestAutomationFramework.test.core.platform.TestDriverFactory@26653222]" name="testWindowsChromeDriver" class="Com.HybridTestAutomationFramework.test.core.platform.TestDriverFactory"/>
+        <method signature="TestDriverFactory.testWindowsFirefoxDriver()[pri:0, instance:Com.HybridTestAutomationFramework.test.core.platform.TestDriverFactory@26653222]" name="testWindowsFirefoxDriver" class="Com.HybridTestAutomationFramework.test.core.platform.TestDriverFactory"/>
+        <method signature="TestDriverFactory.testWindowsIEDriver()[pri:0, instance:Com.HybridTestAutomationFramework.test.core.platform.TestDriverFactory@26653222]" name="testWindowsIEDriver" class="Com.HybridTestAutomationFramework.test.core.platform.TestDriverFactory"/>
+      </group> <!-- Grid -->
+    </groups>
+    <test name="DriverFactory" duration-ms="27273" started-at="2017-01-07T19:50:24Z" finished-at="2017-01-07T19:50:52Z">
+      <class name="Com.HybridTestAutomationFramework.test.core.platform.TestDriverFactory">
+        <test-method status="PASS" signature="testWindowsChromeDriver()[pri:0, instance:Com.HybridTestAutomationFramework.test.core.platform.TestDriverFactory@26653222]" name="testWindowsChromeDriver" duration-ms="8772" started-at="2017-01-07T13:50:24Z" finished-at="2017-01-07T13:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWindowsChromeDriver -->
+        <test-method status="PASS" signature="testWindowsFirefoxDriver()[pri:0, instance:Com.HybridTestAutomationFramework.test.core.platform.TestDriverFactory@26653222]" name="testWindowsFirefoxDriver" duration-ms="9356" started-at="2017-01-07T13:50:33Z" finished-at="2017-01-07T13:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWindowsFirefoxDriver -->
+        <test-method status="PASS" signature="testWindowsIEDriver()[pri:0, instance:Com.HybridTestAutomationFramework.test.core.platform.TestDriverFactory@26653222]" name="testWindowsIEDriver" duration-ms="9076" started-at="2017-01-07T13:50:43Z" finished-at="2017-01-07T13:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWindowsIEDriver -->
+      </class> <!-- Com.HybridTestAutomationFramework.test.core.platform.TestDriverFactory -->
+    </test> <!-- DriverFactory -->
+  </suite> <!-- Core -->
+</testng-results>
