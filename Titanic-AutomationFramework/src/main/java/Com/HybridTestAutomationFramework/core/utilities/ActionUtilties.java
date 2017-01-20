@@ -3,9 +3,13 @@
  */
 package Com.HybridTestAutomationFramework.core.utilities;
 
+
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 
 /**
  * @author Kartheek
@@ -22,11 +26,23 @@ public class ActionUtilties {
 		driver.findElement(fileUploadLocator).sendKeys(filePath);
 		if (submitButtonLocator !=null)
 			driver.findElement(submitButtonLocator).click();
-	}
-	
-	public static void downloadFile(String downloadPath)
-	{
 		
 	}
+	
+	
+	public static void dragAndDropBy(WebDriver driver, WebElement element, int horizontalPix, int verticalPix)
+	{
+		new Actions(driver).dragAndDropBy(element, horizontalPix, verticalPix)
+		.build()
+		.perform();
+	}
+	
+	public static void dragAndDrop(WebDriver driver, WebElement source, WebElement destination)
+	{
+		new Actions(driver).dragAndDrop(source, destination)
+		.build()
+		.perform();
+	}
+	
 
 }

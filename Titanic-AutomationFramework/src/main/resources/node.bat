@@ -1,0 +1,2 @@
+cd C:\Users\Kartheek\Desktop
+java -Dwebdriver.chrome.driver=chromedriver.exe -jar selenium-server-standalone-3.0.1.jar -role webdriver -hub http://localhost:4444/grid/register/ -browser browserName="chrome",version=ANY,platform=WINDOWS,maxInstances=5 
